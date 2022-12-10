@@ -9,8 +9,10 @@ import {
 const Attack = () => {
 
   const clickHandler = () => {
-    const address = localStorage.getItem('address')
-    console.log(address);
+    fetch('http://localhost:3010/', {method:"GET"})
+    .then(data => {
+      console.log(data);
+    })
   }
 
   return (
