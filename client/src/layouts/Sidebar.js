@@ -9,22 +9,22 @@ const navigation = [
     icon: "bi bi-speedometer2",
   },
   {
-    title: "Attacker",
+    title: "Attack",
     href: "/about",
     icon: "bi bi-bell",
   },
   {
-    title: "Etherscan",
+    title: "Staking",
     href: "/badges",
     icon: "bi bi-patch-check",
   },
   {
-    title: "Uniswap V2",
+    title: "Etherscan",
     href: "/buttons",
     icon: "bi bi-hdd-stack",
   },
   {
-    title: "Cards",
+    title: "Uniswap V2",
     href: "/cards",
     icon: "bi bi-card-text",
   },

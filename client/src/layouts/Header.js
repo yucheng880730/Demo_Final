@@ -112,6 +112,11 @@ const Header = () => {
               Attack
             </Link>
           </NavItem>
+          <NavItem>
+            <Link to="/staking" className="nav-link">
+              Staking
+            </Link>
+          </NavItem>
           {/* <UncontrolledDropdown inNavbar nav>
             <DropdownToggle caret nav>
               DD Menu
