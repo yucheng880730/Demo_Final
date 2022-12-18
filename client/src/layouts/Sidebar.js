@@ -15,7 +15,7 @@ const navigation = [
   },
   {
     title: "Staking",
-    href: "/badges",
+    href: "/staking",
     icon: "bi bi-patch-check",
   },
   {

@@ -29,8 +29,11 @@ const main = async () => {
   });
 }
 
-main()
+app.get('/', (req,res) => {
+  main()
+  res.send('Start Attacking!!')
+})
 
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
+  console.log(`App listening on port ${port}`)
 })
